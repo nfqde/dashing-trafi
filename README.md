@@ -1,6 +1,8 @@
 ![Trafi logo](trafi-logo.png) Trafi.com widget for Dashing.io
 ========================================================
 
+Widget showing upcomming departures in specified bus stops using trafi.com API.
+
 ![Widget preview](preview.png)
 
 Usage
