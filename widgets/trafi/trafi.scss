@@ -1,0 +1,67 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color: #34495e;
+
+$title-color:      rgba(255, 255, 255, 0.7);
+$updatedat-color:  rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-trafi styles
+// ----------------------------------------------------------------------------
+.widget-trafi {
+
+  background-color: $background-color;
+  padding: 0 15px;
+
+  .title {
+    color: $title-color;
+  }
+
+  .stop-name {
+    font-size: 1em;
+  }
+
+  .direction {
+    display: block;
+    font-size: 0.6em;
+    margin-top: -4px;
+  }
+
+  .table {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .col-icon {
+    width: 30px;
+  }
+
+  .icon {
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 0.7em;
+  }
+
+  .col-name,
+  .col-time {
+    font-size: 0.8em;
+  }
+
+  .col-icon,
+  .col-name {
+    text-align: left;
+  }
+
+  .col-time {
+    text-align: right;
+  }
+
+  .updated-at {
+    color: $updatedat-color;
+  }
+}

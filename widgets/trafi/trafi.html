@@ -1,0 +1,22 @@
+<h1 class="title">Trafi</h1>
+
+<ul>
+    <li data-foreach-stop="items">
+        <h2 class="stop-name" data-bind="stop.name"></h2>
+        <span class="direction" data-bind="stop.direction"></span>
+
+        <table class="table">
+            <tbody>
+                <tr data-foreach-departure="stop.departures">
+                    <td class="col-icon">
+                        <span class="icon" data-bind-style="'background-color: #' | append departure.color" data-bind="departure.name"></span>
+                    </td>
+                    <td data-bind="departure.destination" class="col-name"></td>
+                    <td data-bind="departure.timeLabel" class="col-time"></td>
+                </tr>
+            </tbody>
+        </table>
+    </li>
+</ul>
+
+<p class="updated-at" data-bind="updatedAtMessage"></p>
